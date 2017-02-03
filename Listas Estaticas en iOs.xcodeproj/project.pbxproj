@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB7A3C3A1E440FFD00FA333F /* DatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A3C391E440FFD00FA333F /* DatosTableViewController.swift */; };
+		FB7A3C3C1E44170400FA333F /* SiguienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A3C3B1E44170400FA333F /* SiguienteViewController.swift */; };
 		FB8D4C9A1E4404B700D39E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D4C991E4404B700D39E28 /* AppDelegate.swift */; };
 		FB8D4C9C1E4404B700D39E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D4C9B1E4404B700D39E28 /* ViewController.swift */; };
 		FB8D4C9F1E4404B700D39E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4C9D1E4404B700D39E28 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB7A3C391E440FFD00FA333F /* DatosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosTableViewController.swift; sourceTree = "<group>"; };
+		FB7A3C3B1E44170400FA333F /* SiguienteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiguienteViewController.swift; sourceTree = "<group>"; };
 		FB8D4C961E4404B700D39E28 /* Listas Estaticas en iOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listas Estaticas en iOs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D4C991E4404B700D39E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8D4C9B1E4404B700D39E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				FB8D4CA01E4404B700D39E28 /* Assets.xcassets */,
 				FB8D4CA21E4404B700D39E28 /* LaunchScreen.storyboard */,
 				FB8D4CA51E4404B700D39E28 /* Info.plist */,
+				FB7A3C391E440FFD00FA333F /* DatosTableViewController.swift */,
+				FB7A3C3B1E44170400FA333F /* SiguienteViewController.swift */,
 			);
 			path = "Listas Estaticas en iOs";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7A3C3C1E44170400FA333F /* SiguienteViewController.swift in Sources */,
 				FB8D4C9C1E4404B700D39E28 /* ViewController.swift in Sources */,
 				FB8D4C9A1E4404B700D39E28 /* AppDelegate.swift in Sources */,
+				FB7A3C3A1E440FFD00FA333F /* DatosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				FB8D4CAA1E4404B700D39E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
